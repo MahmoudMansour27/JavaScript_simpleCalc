@@ -1,0 +1,77 @@
+* {
+    margin:  0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(stars-g18d2488e3_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.center {
+    width: 21.875rem;
+    border-radius: 1.25rem;
+    background: linear-gradient(180deg, black, #6e134f);
+}
+
+.diplay {
+    height: 3.75rem;
+    width: 18.75rem;
+    margin-top: 2.5rem;
+    margin-left: 1.6125rem;
+    padding: 1rem;
+    font-weight: bold;
+    border-radius: 2.1875rem;
+    border: none;
+    color: black;
+    font-size: 1.375rem;
+    text-align: left;
+    padding-right: 1.25rem;
+    background: #1e0d4f;
+    color: white;
+    overflow: hidden;
+} 
+
+form .buttons {
+    width: 18.75rem;
+    margin: 0.625rem 1.5625rem 0rem 1.5625rem;
+    padding: 0.625rem 0rem;
+}
+
+input[type = "button"] {
+    width: 3.625rem;
+    height: 3.4375rem;
+    margin: 0.3125rem;
+    font-size: 1.375rem;
+    font-weight: bold;
+    line-height: 3.4375rem;
+    border-radius: 2.1875rem;
+    color: white;
+    border: none;
+    background: #1e0d4f;
+}
+input[type = "button"]:hover {
+    background: #310623;
+}
+
+input#clear {
+    background: orange;
+    border: 0.0625rem;
+    color: white;
+}
+input#equal {
+    width:  17.1875rem;
+    margin: 0.625rem 0rem 0.625rem 0rem;
+    font-size: 1.875rem;
+    color: white;
+    
+}
